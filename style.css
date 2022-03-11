@@ -84,8 +84,8 @@ hr {
 #ava-img {
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 50%;
-    max-width: 62%;
-    max-height: 62%;
+    max-width: 55%;
+    max-height: 55%;
     width:auto;
     height:auto;
 }
