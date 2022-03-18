@@ -16,8 +16,10 @@ const initialCondition = () =>{
     let min = Number(document.querySelector("#from").value);
     let max = Number(document.querySelector("#to").value);
     if(!min || !max || min >= max ){
-        message.textContent = "Please give me a range!";
-    }else{
+       min = 1;
+       max = 30;
+       message.textContent = "No Range Specified, Range from 1 to 30 inclusive by default!"
+    }
         message.textContent = "Start guessing...";
         targetNumber = randomIntGenerator(min, max);
         console.log(targetNumber);
@@ -27,7 +29,7 @@ const initialCondition = () =>{
         guessedNumberField.value = "";
         document.querySelector("body").style.backgroundColor = "#222";
         document.querySelector(".number").style.width = '15rem';
-    }
+    
 
 }
 
