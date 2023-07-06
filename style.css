@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --width: 375px;
+    --height: calc(var(--width)*1.5);
+    --radius: 30px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(0, 0%, 100%);
+}
+
+#dark-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    z-index: 1;
+    width: var(--width);
+    height: calc(var(--height) - 150px);
+    border-radius: var(--radius);
+
+}
+
+#bright-bg {
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+    background-color: hsl(221, 100%, 96%);
+    width: var(--width);
+    height: calc(var(--width) * 1.5);
+    border-radius: var(--radius);
+    z-index: -1;
+}
+
+#circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+#message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#lorem{
+    padding: 10px 40px 0 40px;
+}
