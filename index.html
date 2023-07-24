@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"/>
-  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <script src="script.js"></script>
   <title>Results summary component</title>
 </head>
+
 <body>
+
+
+
   <div id="dark-bg">
-    <h2>Your Result</h2>
+    <h2 class="lavender-style">Your Result</h2>
     <div id="circle">
-      <h2 id="score">76</h2>
-      <h4>out of 100</h4>
+      <h2 class="white" id="score">76</h2>
+      <h4 class="lavender-style">of 100</h4>
     </div>
 
     <div id="message">
-      <h2>Great</h2>
-      <span id="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, tempora?</span>
+      <h2 class="white">Great</h2>
+      <span id="msg" class="lavender-style">You scored higher than 65% of the people who have taken these tests.</span>
     </div>
   </div>
   <div id="bright-bg">
-
+    <div class="description">
+      <span id="title">Summary</span>
+    </div>
+    <div class="btn">Continue</div>
   </div>
+
+
+  
+
+
 </body>
+
 </html>

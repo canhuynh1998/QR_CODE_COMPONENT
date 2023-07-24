@@ -1,21 +1,25 @@
 [
   {
     "category": "Reaction",
+    "color": "hsl(0, 100%, 67%)",
     "score": 80,
     "icon": "./assets/images/icon-reaction.svg"
   },
   {
     "category": "Memory",
+    "color":"hsl(39, 100%, 56%)",
     "score": 92,
     "icon": "./assets/images/icon-memory.svg"
   },
   {
     "category": "Verbal",
+    "color":"hsl(166, 100%, 37%)",
     "score": 61,
     "icon": "./assets/images/icon-verbal.svg"
   },
   {
     "category": "Visual",
+    "color":"hsl(234, 85%, 45%)",
     "score": 72,
     "icon": "./assets/images/icon-visual.svg"
   }
